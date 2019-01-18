@@ -8,19 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/barretlee/online-markdown.git"
+    "url": "https://github.com/hykes/online-markdown.git"
   },
   "keywords": [
     "wechat",
     "markdown",
     "format"
   ],
-  "author": "Barret Lee <barret.china@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/barretlee/online-markdown/issues"
-  },
-  "homepage": "https://github.com/barretlee/online-markdown",
   "dependencies": {
     "copy-webpack-plugin": "~4.0.1"
   },
@@ -32,6 +27,7 @@
     "less-loader": "^2.2.3",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
-    "webpack": "^2.2.1"
+    "webpack": "^4.6.0",
+    "webpack-cli": "^3.2.1"
   }
 }

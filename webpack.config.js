@@ -8,11 +8,11 @@ module.exports = {
     // plugins: [commonsPlugin],
     //页面入口文件配置
     entry: {
-        index : './src/js/index.js'
+        index : __dirname + '/src/js/index.js'
     },
     //入口文件输出配置
     output: {
-        path: 'docs/js/',
+        path: __dirname + '/docs/js/',
         filename: '[name].js'
     },
     module: {
